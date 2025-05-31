@@ -2,17 +2,22 @@
 ![MIT: LICENSE](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # 🔬 Chemistry Calculation Toolkit
-⌛ *In progress* Python project for chemistry calculations using a JSON database of chemical elements.
+⌛ *In progress* Python project for chemistry calculations, using a JSON database of chemical elements.
 
 ---
 
-📁 [`elements.json_creation.py`](./elements.json_creation.py) - **Element Dataset Generator** <br>
-Automatically generates and populates a JSON file (`elements.json`) containing data on all known chemical elements.
+## Features Currently Implemented
 
-This dataset is intended for use in upcoming chemistry-related Python projects, such as:
+📁 [`elements.json_creation.py`](./elements.json_creation.py) - **Element Dataset Generator** <br>
+Automatically generates and populates a JSON file (`elements.json`) containing data on all known chemical elements, including: name, symbol, atomic number, atomic mass, group, and source.
+
+## Planned Features
+
+This JSON dataset is intended for use in upcoming chemistry-related Python projects, such as:
 - 🧮 Relative Atomic Mass Calculations 
 - ⚗️ pH and pKa Calculations; Henderson-Hasselbalch Equation
 - 🧪 Stoichiometry, Mole Calculations, and more
+- 🧾 Interactive Periodic Table
 
 ---
 
