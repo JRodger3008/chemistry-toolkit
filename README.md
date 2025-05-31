@@ -1,7 +1,7 @@
 ![Badge](https://img.shields.io/badge/Python-3.13-blue)
 ![MIT: LICENSE](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# 🔬 chemistry-toolkit
+# 🔬 Chemistry Calculation Toolkit
 ⌛ *In progress* Python project for chemistry calculations using a JSON database of chemical elements.
 
 ---
