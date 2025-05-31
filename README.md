@@ -6,7 +6,7 @@
 
 ---
 
-📁 `elements.json_creation.py` - **Element Dataset Generator** <br>
+📁 [`elements.json_creation.py`](./elements.json_creation.py) - **Element Dataset Generator** <br>
 Automatically generates and populates a JSON file (`elements.json`) containing data on all known chemical elements.
 
 This dataset is intended for use in upcoming chemistry-related Python projects, such as:
@@ -27,4 +27,4 @@ There are two main reasons:
 ---
 
 ## License
-This repository is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
+This repository is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
