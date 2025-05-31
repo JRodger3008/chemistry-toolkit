@@ -23,3 +23,8 @@ There are two main reasons:
      
 2. **Learning-focused Approach**:
    - While I’ve worked with APIs in JavaScript, I’ve yet to implement one in Python. I chose to delay API integration until I fully understand the Pythonic approach to fetching, parsing, and handling API data.
+
+---
+
+## License
+This repository is licensed under the MIT License - see the [LICENSE](./LICENSE.txt) file for details.
