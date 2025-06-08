@@ -11,10 +11,12 @@
 
 ### 📁 [`elements_json_creation.py`](./elements_json_creation.py) - Element Dataset Generator
 - Automatically generates and populates a JSON file (`elements.json`)
+
+### 📁 [`elements.json`](./elements.json) - Element Dataset
 - Contains data on all known elements: name, symbol, atomic number, atomic mass, group, and source
 
 ### 📁 [`molar_mass.py`](./molar_mass.py) - Molar Mass/Relative Atomic Mass Calculator
-- Parses complex chemical formulas (e.g., `Al₂(SO₄)₃`, `CH₃COOH`)
+- Parses complex chemical formulas, including parenthetical groupings and repeated elements (e.g., `Al₂(SO₄)₃`, `CH₃COOH`)
 - Calculates molar mass using data from `elements.json`
 - Gracefully handles unknown elements and malformed formulas
 - Includes test cases and interactive user input
@@ -22,8 +24,9 @@
 ## ⌛ Planned Features
 
 This JSON dataset is intended for use in upcoming chemistry-related Python projects, such as:
-- ⚗️ pH and pKa Calculations (including Henderson-Hasselbalch Equation)
-- 🧪 Stoichiometry, Mole Calculations, and related tools
+- 🧮 Support for calculating molar masses of hydrate compounds (e.g., `CuSO₄·5H₂O`)
+- ⚗️ pH and pKa calculations (including Henderson-Hasselbalch equation)
+- 🧪 Stoichiometry, Mole calculations, and related tools
 - 🧾 Interactive Periodic Table
 
 ---
