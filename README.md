@@ -1,5 +1,6 @@
 ![Badge](https://img.shields.io/badge/Python-3.13-blue)
 ![MIT: LICENSE](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/status-in--progress-yellow)
 
 # 🔬 Chemistry Calculation Toolkit
 *In progress* Python project for chemistry calculations, using a JSON database of chemical elements.
@@ -8,17 +9,19 @@
 
 ## ✅ Features Implemented
 
-📁 [`elements_json_creation.py`](./elements_json_creation.py) - **Element Dataset Generator** <br>
-Automatically generates and populates a JSON file (`elements.json`) containing data on all known chemical elements, including: name, symbol, atomic number, atomic mass, group, and source.
-<br>
+### 📁 [`elements_json_creation.py`](./elements_json_creation.py) - Element Dataset Generator
+- Automatically generates and populates a JSON file (`elements.json`)
+- Contains data on all known elements: name, symbol, atomic number, atomic mass, group, and source
 
+### 📁 [`molar_mass.py`](./molar_mass.py) - Molar Mass/Relative Atomic Mass Calculator
+- Parses complex chemical formulas (e.g., `Al₂(SO₄)₃`, `CH₃COOH`)
+- Calculates molar mass using data from `elements.json`
+- Gracefully handles unknown elements and malformed formulas
+- Includes test cases and interactive user input
 
 ## ⌛ Planned Features
 
-📁 [`molar_mass.py`](./molar_mass.py) - **Molar Mass/Relative Atomic Mass Calculator** (*in progress*)
-
 This JSON dataset is intended for use in upcoming chemistry-related Python projects, such as:
-- 🧮 Relative Atomic Mass & Molar Mass Calculations 
 - ⚗️ pH and pKa Calculations (including Henderson-Hasselbalch Equation)
 - 🧪 Stoichiometry, Mole Calculations, and related tools
 - 🧾 Interactive Periodic Table
