@@ -123,7 +123,7 @@
         "name": "Sulfur",
         "symbol": "S",
         "atomic_number": 16,
-        "atomic_mass": 32.07,
+        "atomic_mass": 32.065,
         "group": "Nonmetal",
         "source": "https://pubchem.ncbi.nlm.nih.gov/ptable/atomic-mass/"
     },

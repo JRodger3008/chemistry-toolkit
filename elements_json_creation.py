@@ -40,6 +40,8 @@ ALTERNATE_SOURCE_ELEMENTS = {
     "Er", "Yb", "Hf", "Os", "Ir", "Pt", "Hg", "Pb"
 }
 
+# Sulfur was taken as an average between PubChems 32.07, and RSCs 32.06
+# Thus Sulfur's atomic_mass = 32.065 in `elements.json` file
 
 # Define element data as tuples: (name, symbol, atomic_mass, group)
 elements_data = [
